@@ -1,0 +1,15 @@
+#
+# Relationship types as encoded in prest and expected IBD probabilities
+#
+ID           NAME           CODE    KINSHIP       IBD0    IBD1    IBD2
+ 1       Full-Sibling         FS    0.250         0.25    0.50    0.25
+ 2       Half-Sibling         HS    0.125         0.50    0.50    0
+ 3 Grandparent-grandchild    GPC    0.125         0.50    0.50    0
+ 4        Avuncular           AV    0.125         0.50    0.50    0
+ 5       First-Cousin         FC    0.0625        0.75    0.25    0
+ 6        Unrelated            U    0             1       0       0
+ 7      Half-Avuncular        HA    0.0625        0.75    0.25    0
+ 8    Half-First-Cousin      HFC    0.03125       0.875   0.125   0
+ 9  Half-Sib+First-Cousin   HSFC    0.1875        0.375   0.5     0.125
+10    Parrent-Offspring       PO    0.25          0       1       0
+11         MZ-Twins           MZ    0.5           0       0       1
